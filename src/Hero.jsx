@@ -12,7 +12,7 @@ const Hero = () => {
     }, []);
 
     const itemTemplate = (item) => {
-        return <img src={item.itemImageSrc} alt={item.alt} style={{ width: '100%', display: 'block' , height: '650px' }} />;
+        return <img src={item.itemImageSrc} alt={item.alt} style={{ width: '100%', display: 'block' , height: '740px' }} />;
     }
 
     const thumbnailTemplate = (item) => {
@@ -37,6 +37,13 @@ const Hero = () => {
           .p-galleria-nav-next::before {
             font-size: 36px; /* Make the arrows larger */
             color: #000000; /* Set color to black */
+          }
+          @media (max-width: 768px) {
+            /* Adjust height for mobile devices */
+            img {
+              height: auto; /* Reset height to auto for responsiveness */
+              max-height: 300px; /* Set maximum height for mobile */
+            }
           }
         `}
       </style>
