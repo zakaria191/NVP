@@ -24,7 +24,7 @@ export const IndustryExpertise = () => {
             <div className="px-6 py-4 mb-auto">
               <span className="font-medium text-lg  hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">
                 Agriculture
-              </a>
+              </span>
               <p className="text-gray-500 text-sm mb-5">
                 Step into the fertile fields of Moroccan agriculture with New
                 Venture Partners!
@@ -51,7 +51,7 @@ export const IndustryExpertise = () => {
             <div className="px-6 py-4 mb-auto">
               <span className="font-medium text-lg  hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">
                 Water management
-              </a>
+              </span>
               <p className="text-gray-500 text-sm">
                 Dive into the waves of opportunity with New Venture Partners as
                 we navigate Morocco's water management landscape.
